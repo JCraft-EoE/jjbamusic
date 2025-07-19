@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "jjbamusic"
+version = "${version}"
+displayName = "JoJo's Bizzare Adventure Music"
+authors = "JCraft EoE Team"
+description = '''
+JJBA music discs for Minecraft
+'''
+logoFile = "icon.png"
+
+[[dependencies.jjbamusic]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jjbamusic]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
