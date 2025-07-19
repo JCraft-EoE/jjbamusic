@@ -12,3 +12,5 @@ rootProject.name = 'jjbamusic'
 include 'common'
 include 'fabric'
 include 'forge'
+
+include 'datagen'
