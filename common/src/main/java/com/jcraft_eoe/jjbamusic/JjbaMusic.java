@@ -10,6 +10,7 @@ public final class JjbaMusic {
         JMItemRegistry.ITEM_REGISTRY.register();
         JMLootTableHelper.registerMusicDiscLootTables();
         JMCreativeMenuTabRegistry.register();
+        JMCreativeMenuTabRegistry.CREATIVE_TAB_REGISTRY.register();
     }
 
     public static ResourceLocation id(String location) {
