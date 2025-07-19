@@ -53,3 +53,4 @@ run/
 /common/src/main/generated/assets/jcraft/*
 
 .architectury-transformer/
+common/src/main/generated

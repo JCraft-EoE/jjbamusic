@@ -20,6 +20,9 @@
     ],
     "client": [
       "com.jcraft_eoe.jjbamusic.fabric.client.JjbaMusicFabricClient"
+    ],
+    "fabric-datagen": [
+      "com.jcraft_eoe.jjbamusic.datagen.JjbaMusicDataGen"
     ]
   },
   "mixins": [
