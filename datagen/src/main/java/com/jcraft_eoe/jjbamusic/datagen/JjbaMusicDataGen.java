@@ -1,6 +1,5 @@
 package com.jcraft_eoe.jjbamusic.datagen;
 
-import com.jcraft_eoe.jjbamusic.datagen.provider.assets.JMLangProvider;
 import com.jcraft_eoe.jjbamusic.datagen.provider.assets.JMModelProvider;
 import com.jcraft_eoe.jjbamusic.datagen.provider.data.JMTagProviders;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -11,7 +10,6 @@ public class JjbaMusicDataGen implements DataGeneratorEntrypoint {
     public void onInitializeDataGenerator(FabricDataGenerator generator) {
         final FabricDataGenerator.Pack pack = generator.createPack();
         pack.addProvider(JMModelProvider::new);
-        pack.addProvider(JMLangProvider::new);
         pack.addProvider(JMTagProviders.JMItemTags::new);
     }
 }
