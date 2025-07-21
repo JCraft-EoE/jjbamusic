@@ -60,5 +60,6 @@
   "item.jjbamusic.disc_walk_like_an_egyptian": "음악 디스크",
   "item.jjbamusic.disc_walk_like_an_egyptian.desc": "The Bangles - Walk Like an Egyptian",
   "item.jjbamusic.disc_wonder_of_you": "음악 디스크",
-  "item.jjbamusic.disc_wonder_of_you.desc": "Elvis Presley - Wonder of You"
+  "item.jjbamusic.disc_wonder_of_you.desc": "Elvis Presley - Wonder of You",
+  "itemGroup.jjbamusic.music_discs": "죠죠의 기묘한 모험 음악 디스크"
 }
