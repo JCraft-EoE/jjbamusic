@@ -18,7 +18,7 @@
   "item.jjbamusic.disc_freekn_you": "レコード",
   "item.jjbamusic.disc_freekn_you.desc": "Jodeci - Freek'n You",
   "item.jjbamusic.disc_giorno_theme": "レコード",
-  "item.jjbamusic.disc_giorno_theme.desc": "菅野祐悟 - il vento d'oro ",
+  "item.jjbamusic.disc_giorno_theme.desc": "菅野祐悟 - il vento d'oro",
   "item.jjbamusic.disc_great_days": "レコード",
   "item.jjbamusic.disc_great_days.desc": "青木カレン & ハセガワダイスケ - Great Days",
   "item.jjbamusic.disc_hallelujah_chorus": "レコード",
@@ -60,5 +60,6 @@
   "item.jjbamusic.disc_walk_like_an_egyptian": "レコード",
   "item.jjbamusic.disc_walk_like_an_egyptian.desc": "The Bangles - Walk Like an Egyptian",
   "item.jjbamusic.disc_wonder_of_you": "レコード",
-  "item.jjbamusic.disc_wonder_of_you.desc": "Elvis Presley - Wonder of You"
+  "item.jjbamusic.disc_wonder_of_you.desc": "Elvis Presley - Wonder of You",
+  "itemGroup.jjbamusic.music_discs": "JJBA レコード"
 }
