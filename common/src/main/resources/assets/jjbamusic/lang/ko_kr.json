@@ -10,7 +10,7 @@
   "item.jjbamusic.disc_crucified": "음악 디스크",
   "item.jjbamusic.disc_crucified.desc": "아미 오브 러버스 - Crucified",
   "item.jjbamusic.disc_dark_rebirth": "음악 디스크",
-  "item.jjbamusic.disc_dark_rebirth.desc": "Yugo Kanno - Dark Rebirth",
+  "item.jjbamusic.disc_dark_rebirth.desc": "칸노 유고 - 어둠의 소생",
   "item.jjbamusic.disc_end_of_the_world": "음악 디스크",
   "item.jjbamusic.disc_end_of_the_world.desc": "JO☆STARS - 죠죠 그 피의 기억 ~end of THE WORLD~",
   "item.jjbamusic.disc_fighting_gold": "음악 디스크",
@@ -50,7 +50,7 @@
   "item.jjbamusic.disc_stone_ocean": "음악 디스크",
   "item.jjbamusic.disc_stone_ocean.desc": "ichigo - Stone Ocean",
   "item.jjbamusic.disc_to_be_continued": "음악 디스크",
-  "item.jjbamusic.disc_to_be_continued.desc": "Yes - Roundabout",
+  "item.jjbamusic.disc_to_be_continued.desc": "Yes - To Be Continued",
   "item.jjbamusic.disc_torture_dance": "음악 디스크",
   "item.jjbamusic.disc_torture_dance.desc": "칸노 유고 - canzoni preferite",
   "item.jjbamusic.disc_traitors_requiem": "음악 디스크",
@@ -61,5 +61,5 @@
   "item.jjbamusic.disc_walk_like_an_egyptian.desc": "The Bangles - Walk Like an Egyptian",
   "item.jjbamusic.disc_wonder_of_you": "음악 디스크",
   "item.jjbamusic.disc_wonder_of_you.desc": "Elvis Presley - Wonder of You",
-  "itemGroup.jjbamusic.music_discs": "죠죠의 기묘한 모험 음악 디스크"
+  "itemGroup.jjbamusic.music_discs": "죠죠의 기묘한 음악"
 }
