@@ -14,7 +14,7 @@ JJBA music discs for Minecraft
 logoFile = "icon.png"
 
 [[dependencies.jjbamusic]]
-modId = "forge"
+modId = "neoforge"
 mandatory = true
 versionRange = "[47,)"
 ordering = "NONE"
