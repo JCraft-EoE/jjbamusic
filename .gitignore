@@ -1,8 +1,8 @@
 /.gradle/*
 /fabric/run/*
 /fabric/build/*
-/forge/run/*
-/forge/build/*
+/neoforge/run/*
+/neoforge/build/*
 /.idea/*
 /common/run/*
 /common/build/*
