@@ -9,8 +9,9 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
-import net.minecraftforge.common.loot.IGlobalLootModifier;
-import net.minecraftforge.common.loot.LootModifier;
+import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
+import net.neoforged.neoforge.common.loot.LootModifier;
+import org.checkerframework.checker.nullness.qual.NonNull;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -18,7 +19,7 @@ import java.util.function.Supplier;
 import static net.minecraft.world.level.storage.loot.LootTable.createStackSplitter;
 
 public class JMForgeLootAdapter extends LootModifier {
-    public static final Supplier<Codec<JMForgeLootAdapter>> CODEC = Suppliers.memoize(() ->
+    public static final Supplier<Codec<? extends JMForgeLootAdapter>> CODEC = Suppliers.memoize(() ->
             RecordCodecBuilder.create(inst ->
                     LootModifier.codecStart(inst).apply(inst, JMForgeLootAdapter::new)
             )
@@ -29,6 +30,7 @@ public class JMForgeLootAdapter extends LootModifier {
     }
 
     @SuppressWarnings("deprecation") // forge made another bad mixin-avoidant api
+    @NonNull
     @Override
     protected ObjectArrayList<ItemStack> doApply(final ObjectArrayList<ItemStack> generatedLoot, final LootContext context) {
         final LootTable.Builder builder = LootTable.lootTable();
