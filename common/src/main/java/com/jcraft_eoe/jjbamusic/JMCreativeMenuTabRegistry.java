@@ -33,6 +33,7 @@ public interface JMCreativeMenuTabRegistry {
                     entries.accept(JMItemRegistry.DISC_JOSUKE_THEME.get());
                     entries.accept(JMItemRegistry.DISC_TORTURE_DANCE.get());
                     entries.accept(JMItemRegistry.DISC_UN_ALTRA_PERSONA.get());
+                    entries.accept(JMItemRegistry.DISC_SBR_THEME.get());
                     entries.accept(JMItemRegistry.DISC_STAND_PROUD.get());
                     entries.accept(JMItemRegistry.DISC_SONO_CHI_NO_SADAME.get());
                     entries.accept(JMItemRegistry.DISC_BLOODY_STREAM.get());
@@ -50,7 +51,6 @@ public interface JMCreativeMenuTabRegistry {
                     entries.accept(JMItemRegistry.DISC_I_WANT_YOU.get());
                     entries.accept(JMItemRegistry.DISC_FREEKN_YOU.get());
                     entries.accept(JMItemRegistry.DISC_MODERN_CRUSADERS.get());
-                    entries.accept(JMItemRegistry.DISC_SBR_THEME.get());
                 })
                 .build();
     }
