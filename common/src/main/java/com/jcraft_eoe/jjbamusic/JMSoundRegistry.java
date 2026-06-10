@@ -40,6 +40,7 @@ public interface JMSoundRegistry {
     RegistrySupplier<SoundEvent> I_WANT_YOU = register("i_want_you");
     RegistrySupplier<SoundEvent> FREEKN_YOU = register("freekn_you");
     RegistrySupplier<SoundEvent> MODERN_CRUSADERS = register("modern_crusaders");
+    RegistrySupplier<SoundEvent> SBR_THEME = register("dance_with_sbr");
 
     static RegistrySupplier<SoundEvent> register(String name) {
         var event = SoundEvent.createVariableRangeEvent(JjbaMusic.id(name));

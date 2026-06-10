@@ -44,6 +44,7 @@ public interface JMItemRegistry {
     RegistrySupplier<Item> DISC_I_WANT_YOU = register("disc_i_want_you", () -> new RecordItem(1, JMSoundRegistry.I_WANT_YOU.get(), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 197));
     RegistrySupplier<Item> DISC_FREEKN_YOU = register("disc_freekn_you", () -> new RecordItem(1, JMSoundRegistry.FREEKN_YOU.get(), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 116));
     RegistrySupplier<Item> DISC_MODERN_CRUSADERS = register("disc_modern_crusaders", () -> new RecordItem(1, JMSoundRegistry.MODERN_CRUSADERS.get(), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 156));
+    RegistrySupplier<Item> DISC_SBR_THEME = register("disc_sbr_theme", () -> new RecordItem(1, JMSoundRegistry.SBR_THEME.get(), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 287));
 
     static <T extends Item> RegistrySupplier<T> register(String id, Supplier<? extends T> supplier) {
         return ITEM_REGISTRY.register(id, supplier);

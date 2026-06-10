@@ -51,5 +51,6 @@ public class JMModelProvider extends FabricModelProvider {
         generator.generateFlatItem(JMItemRegistry.DISC_I_WANT_YOU.get(), ModelTemplates.MUSIC_DISC);
         generator.generateFlatItem(JMItemRegistry.DISC_FREEKN_YOU.get(), ModelTemplates.MUSIC_DISC);
         generator.generateFlatItem(JMItemRegistry.DISC_MODERN_CRUSADERS.get(), ModelTemplates.MUSIC_DISC);
+        generator.generateFlatItem(JMItemRegistry.DISC_SBR_THEME.get(), ModelTemplates.MUSIC_DISC);
     }
 }

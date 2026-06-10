@@ -153,5 +153,10 @@
     "sounds": [
       "jjbamusic:modern_crusaders"
     ]
+  },
+  "dance_with_sbt": {
+    "sounds": [
+      "jjbamusic:dance_with_sbr"
+    ]
   }
 }

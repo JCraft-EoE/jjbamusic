@@ -50,6 +50,7 @@ public interface JMTagProviders {
             musicDiscs.addElement(JMItemRegistry.DISC_I_WANT_YOU.getId());
             musicDiscs.addElement(JMItemRegistry.DISC_FREEKN_YOU.getId());
             musicDiscs.addElement(JMItemRegistry.DISC_MODERN_CRUSADERS.getId());
+            musicDiscs.addElement(JMItemRegistry.DISC_SBR_THEME.getId());
 
             final var creeperDiscs = getOrCreateRawBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS);
             creeperDiscs.addElement(JMItemRegistry.DISC_CRUCIFIED.getId());

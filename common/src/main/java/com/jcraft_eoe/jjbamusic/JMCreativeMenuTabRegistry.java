@@ -50,6 +50,7 @@ public interface JMCreativeMenuTabRegistry {
                     entries.accept(JMItemRegistry.DISC_I_WANT_YOU.get());
                     entries.accept(JMItemRegistry.DISC_FREEKN_YOU.get());
                     entries.accept(JMItemRegistry.DISC_MODERN_CRUSADERS.get());
+                    entries.accept(JMItemRegistry.DISC_SBR_THEME.get());
                 })
                 .build();
     }

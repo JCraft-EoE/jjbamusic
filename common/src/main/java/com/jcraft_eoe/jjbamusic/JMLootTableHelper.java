@@ -68,6 +68,7 @@ public final class JMLootTableHelper {
                 .add(LootItem.lootTableItem(JMItemRegistry.DISC_UN_ALTRA_PERSONA.get()).setWeight(1))
                 .add(LootItem.lootTableItem(JMItemRegistry.DISC_JOSUKE_THEME.get()).setWeight(1))
                 .add(LootItem.lootTableItem(JMItemRegistry.DISC_PROPAGANDA.get()).setWeight(1))
+                .add(LootItem.lootTableItem(JMItemRegistry.DISC_SBR_THEME.get()).setWeight(1))
                 .when(LootItemRandomChanceCondition.randomChance(0.25f))
         );
     }
